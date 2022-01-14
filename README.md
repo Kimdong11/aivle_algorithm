@@ -1,8 +1,10 @@
 
 # Q3 
+
 ### 선택정렬로 오름차순 정렬(List "a"), 삽입정렬로 내림차순 정렬해(List "b") 서로 같은 인덱스끼리 k번 만큼 교환 했습니다!
 
 \\``` python3
+
 def solution(k, a, b):
     answer = 0
     n1 = len(a)
@@ -27,4 +29,5 @@ def solution(k, a, b):
     
     answer = sum(a)
     return answer
+
 ```
