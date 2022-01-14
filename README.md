@@ -10,6 +10,7 @@ def solution(k, a, b):
     answer = 0
     n1 = len(a)
     n2 = len(b)
+#삽입정렬 (오름차순)
     for i in range(1, n1) :
         j = i
         tmp = a[i]
@@ -18,6 +19,7 @@ def solution(k, a, b):
             j -= 1
         a[j] = tmp 
         
+#선택정렬 (내림차순)
     for i in range(n2 - 1) :
         max = i
         for j in range(i  + 1, n2) :
