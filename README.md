@@ -30,7 +30,8 @@ def solution(k, a, b):
 
 #교환
     for i in range(k) :
-        a[i], b[i] = b[i], a[i]
+        if a[i] < b[i] :
+            a[i], b[i] = b[i], a[i]
     
     answer = sum(a)
     return answer
